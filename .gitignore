@@ -1,0 +1,70 @@
+# ============================================================
+# TaskFlow — .gitignore
+# ============================================================
+
+# ─── Environment Variables ───────────────────────────────────
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+server/.env
+client/.env
+
+# ─── Node Modules ────────────────────────────────────────────
+node_modules/
+server/node_modules/
+client/node_modules/
+
+# ─── Build Output ────────────────────────────────────────────
+client/dist/
+client/build/
+server/dist/
+
+# ─── Logs ────────────────────────────────────────────────────
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+server/logs/
+
+# ─── Uploaded Files ──────────────────────────────────────────
+server/uploads/*
+!server/uploads/.gitkeep
+
+# ─── OS Files ────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ─── IDE / Editor ────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ─── Vite / Rollup ───────────────────────────────────────────
+client/.vite/
+*.local
+
+# ─── Package Lock (keep one) ─────────────────────────────────
+# Uncomment if using yarn
+# package-lock.json
+
+# ─── Testing ─────────────────────────────────────────────────
+coverage/
+.nyc_output/
+
+# ─── Misc ────────────────────────────────────────────────────
+*.pem
+*.key
+powershell.cmd
