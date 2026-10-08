@@ -66,7 +66,6 @@ export const MainLayout = () => {
           <div className="flex items-center space-x-2">
             <AppLogo size="w-5 h-5" className="rounded-md" />
             <span className="font-semibold text-slate-300">TaskFlow SaaS Platform</span>
-            <span>— Developed for CodeAlpha Full-Stack Internship</span>
           </div>
           <div className="flex items-center space-x-6">
             <Link to="/about" className="hover:text-slate-400">About</Link>

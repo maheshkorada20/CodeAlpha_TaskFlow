@@ -10,7 +10,6 @@ import {
   ShieldCheck,
   Zap,
   CheckCircle2,
-  Sparkles,
   Link2,
 } from 'lucide-react';
 
@@ -19,10 +18,6 @@ export const Home = () => {
     <div className="relative overflow-hidden">
       {/* Hero Section */}
       <section className="relative pt-20 pb-28 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto text-center">
-        <div className="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-400 text-xs font-semibold mb-8 animate-fade-in">
-          <Sparkles className="w-3.5 h-3.5" />
-          <span>TaskFlow 2.0 – Production-Grade Team Collaboration</span>
-        </div>
 
         <h1 className="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-white max-w-4xl mx-auto leading-tight">
           Where high-velocity teams{' '}
